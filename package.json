@@ -1,8 +1,9 @@
 {
   "name": "qr-code",
   "version": "1.0.0",
-  "description": "",
+  "description": "QR codes as a custom HTML element",
   "main": "qr-code.js",
+  "main": "dist/qr-code.min.js",
   "directories": {
     "test": "test"
   },
