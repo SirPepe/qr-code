@@ -6,8 +6,12 @@
   "directories": {
     "test": "test"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SirPepe/qr-code.git"
+  },
   "scripts": {
-    "build": "node_modules/.bin/uglifyjs node_modules/qrious/dist/umd/qrious.min.js src/qr-code.js --c --screw-ie8 -o dist/qr-code.js"
+    "build": "node_modules/.bin/uglifyjs node_modules/qrious/dist/umd/qrious.min.js src/qr-code.js --c --screw-ie8 -o dist/qr-code.min.js"
   },
   "author": "peter@peterkroener.de",
   "license": "MIT",
