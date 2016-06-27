@@ -1,0 +1,18 @@
+{
+  "name": "qr-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "qr-code.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "node_modules/.bin/uglifyjs node_modules/qrious/dist/umd/qrious.min.js src/qr-code.js --c --screw-ie8 -o dist/qr-code.js"
+  },
+  "author": "peter@peterkroener.de",
+  "license": "MIT",
+  "devDependencies": {
+    "qrious": "^2.0.0",
+    "uglify-js": "^2.6.4"
+  }
+}
